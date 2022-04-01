@@ -7,7 +7,6 @@
 
 from ipaddress import ip_network
 
-import re
 import sys
 import time
 
@@ -33,7 +32,6 @@ def main():
 
   for x in range(0, int(max_routes)):
     try:      
-      # announce(supernet.pop(0), nexthop)
       net = supernet.pop(0)
     except IndexError:
       supernet = list(block.pop(0))
