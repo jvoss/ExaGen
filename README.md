@@ -4,7 +4,7 @@ Generates any number of IPv4 routes for advertisement via
 [ExaBGP](https://github.com/Exa-Networks/exabgp)
 
 This simple script generates route announcements for ExaBGP to announce to its
-peers. It is intended for test routing table capacities and provide routes for
+peers. It is intended for testing routing table capacities and provide routes for
 lab environments.
 
 ## Getting Started
